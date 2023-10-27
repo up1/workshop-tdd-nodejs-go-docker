@@ -1,6 +1,6 @@
 const request = require("supertest");
-const app = require("../src/router");
-const sequelize = require("../src/db");
+const app = require("../../src/router");
+const sequelize = require("../../src/db");
 
 describe("Test API /", () => {
     it("Should hello world api", async () => {

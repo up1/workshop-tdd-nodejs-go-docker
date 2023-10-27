@@ -9,7 +9,7 @@
 ## Create and install dependencies
 ```
 $npm init
-$npm i -S express jsonwebtoken sequelize pg
+$npm i -S express jsonwebtoken sequelize pg axios
 ```
 
 ## Start Server
@@ -17,9 +17,16 @@ $npm i -S express jsonwebtoken sequelize pg
 $npm start
 ```
 
-## Testing with Jest
+## Testing API with Jest
 ```
 $npm i -D jest supertest nock
 
-$npm test
+$npm run test-api
+```
+
+## Testing Gateway with Jest
+```
+$npm i -D jest supertest nock
+
+$npm run test-gateway
 ```
